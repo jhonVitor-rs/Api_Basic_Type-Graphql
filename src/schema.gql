@@ -25,7 +25,7 @@ type Mutation {
 }
 
 type Post {
-  author: User!
+  author: User
   authorId: String!
   content: String!
   id: String!
